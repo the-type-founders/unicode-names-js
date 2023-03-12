@@ -27,7 +27,7 @@ async function main() {
 
   await writeFile(
     './data.js',
-    `const names = new Map(${JSON.stringify(names, null, 2)});
+    `const names = new Map(Object.entries(${JSON.stringify(names, null, 2)}));
 export default names;`
   );
 }
