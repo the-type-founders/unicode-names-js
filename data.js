@@ -1,4 +1,4 @@
-const data = new Map({
+const names = new Map(Object.entries({
   "0": "<control>",
   "1": "<control>",
   "2": "<control>",
@@ -34924,5 +34924,5 @@ const data = new Map({
   "1048576": "<Plane 16 Private Use, First>",
   "1114109": "<Plane 16 Private Use, Last>",
   "NaN": ""
-});
-export default data;
+}));
+export default names;
