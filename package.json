@@ -1,6 +1,6 @@
 {
   "name": "@typefounders/unicode-names",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get unicode names from codepoints",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
