@@ -9,7 +9,7 @@
     "check": "prettier . --check",
     "format": "prettier . --check --write",
     "test": "echo",
-    "update": "ts-node src/update.ts",
+    "update": "npx tsx src/update.ts && prettier . --check --write",
     "prepare": "tsc"
   },
   "author": "Bram Stein <bram@thetypefounders.com>",

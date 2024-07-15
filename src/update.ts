@@ -2,7 +2,7 @@ import { writeFile } from 'fs/promises';
 import fetch from 'node-fetch';
 import CharacterSet from 'characterset';
 
-const UNICODE_VERSION = '15.0.0';
+const UNICODE_VERSION = '16.0.0';
 
 async function unicode() {
   const response = await fetch(
