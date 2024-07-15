@@ -1,12 +1,14 @@
 {
-  "name": "@typefounders/unicode-names",
-  "version": "1.0.2",
-  "description": "Get unicode names from codepoints",
+  "name": "@the-type-founders/unicode-names",
+  "version": "1.1.0",
+  "description": "Extraction of Unicode names from Unicode codepoints.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "prettier . --check",
+    "format": "prettier . --check --write",
+    "test": "echo",
     "update": "ts-node src/update.ts",
     "prepare": "tsc"
   },
@@ -20,10 +22,12 @@
     "characterset": "^2.0.0",
     "mocha": "^10.2.0",
     "node-fetch": "^3.3.0",
+    "prettier": "^3.3.3",
     "ts-loader": "^9.4.2",
     "ts-mocha": "^10.0.0",
     "ts-node": "^10.4.0",
     "tslib": "^2.5.0",
+    "tsx": "^4.16.2",
     "typescript": "^4.9.5"
   }
 }
