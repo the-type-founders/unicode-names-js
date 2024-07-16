@@ -1,5 +1,5 @@
 {
-  "name": "@the-type-founders/unicode-names",
+  "name": "@thetypefounders/unicode-names",
   "version": "1.1.0",
   "description": "Extraction of Unicode names from Unicode codepoints.",
   "main": "dist/index.js",
